@@ -19,8 +19,8 @@ Gamepad::Gamepad()
     _button_start(new InterruptIn(PTC8)),
 
 
-    _vert(new AnalogIn(PTB10)),
-    _horiz(new AnalogIn(PTB11)),
+    _vert(new AnalogIn(PTB11)),
+    _horiz(new AnalogIn(PTB10)),
 
     
     _pot1(new AnalogIn(PTB2)),
