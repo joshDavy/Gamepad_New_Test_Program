@@ -327,7 +327,7 @@ Vector2D Gamepad::get_mapped_coord()
     float x = coord.x*sqrt(1.0f-pow(coord.y,2.0f)/2.0f);
     float y = coord.y*sqrt(1.0f-pow(coord.x,2.0f)/2.0f);
 
-    Vector2D mapped_coord = {x,y};
+    Vector2D mapped_coord = {-x,-y};
     return mapped_coord;
 }
 
